@@ -3,8 +3,8 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     line-height: 1.6;
-    background-color: #eef4f8; /* Very light blue-gray background */
-    color: #112d4e; /* Dark blue-gray for main text */
+    background-color: #2a2a4a; /* Slightly lighter dark for body background */
+    color: #f0f0f0; /* Light grey for dark backgrounds */
 }
 
 .container {
@@ -15,11 +15,11 @@ body {
 
 /* Header Styles */
 header {
-    background: #3f72af; /* Primary Accent Blue */
-    color: #ffffff;
+    background: #1a1a2e; /* Primary Dark */
+    color: #fff;
     padding-top: 20px;
     min-height: 70px;
-    border-bottom: #dbe2ef 3px solid; /* Secondary Accent Light Blue */
+    border-bottom: #e94560 3px solid; /* Vibrant Accent 1 */
 }
 
 header h1 {
@@ -28,7 +28,7 @@ header h1 {
 }
 
 header h1 a {
-    color: #ffffff;
+    color: #fff;
     text-decoration: none;
 }
 
@@ -49,23 +49,23 @@ header li {
 }
 
 header a {
-    color: #ffffff;
+    color: #fff;
     text-decoration: none;
     text-transform: uppercase;
     font-size: 16px;
 }
 
 header a:hover {
-    color: #dbe2ef; /* Lighter blue for hover on header links */
+    color: #53cfd7; /* Vibrant Accent 2 */
     font-weight: bold;
 }
 
 /* Hero Section */
 .hero {
     min-height: 400px;
-    background: #eef4f8 url('https://via.placeholder.com/1500x400/3f72af/ffffff?text=Modern+E-commerce') no-repeat center center/cover; /* Light background, blue accent in banner */
+    background: #1a1a2e url('https://via.placeholder.com/1500x400/e94560/f0f0f0?text=Vibrant+E-commerce') no-repeat center center/cover; /* Vibrant Accent 1 in banner */
     text-align: center;
-    color: #112d4e; /* Dark blue-gray text for hero */
+    color: #fff;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -75,19 +75,17 @@ header a:hover {
 .hero h2 {
     font-size: 3em;
     margin-bottom: 10px;
-    color: #112d4e; /* Dark blue-gray text */
 }
 
 .hero p {
     font-size: 1.2em;
     margin-bottom: 20px;
-    color: #112d4e; /* Dark blue-gray text */
 }
 
 .btn {
     display: inline-block;
-    color: #ffffff;
-    background: #3f72af; /* Primary Accent Blue */
+    color: #fff;
+    background: #e94560; /* Vibrant Accent 1 */
     padding: 10px 20px;
     text-decoration: none;
     border-radius: 5px;
@@ -95,7 +93,7 @@ header a:hover {
 }
 
 .btn:hover {
-    background: #5299d3; /* Button Hover Blue */
+    background: #53cfd7; /* Vibrant Accent 2 */
 }
 
 /* Products Section */
@@ -107,7 +105,7 @@ header a:hover {
 .products h2 {
     font-size: 2.5em;
     margin-bottom: 30px;
-    color: #3f72af; /* Primary Accent Blue */
+    color: #e94560; /* Vibrant Accent 1 */
 }
 
 .product-grid {
@@ -117,10 +115,10 @@ header a:hover {
 }
 
 .product-card {
-    background: #ffffff; /* Clean white card background */
+    background: #3a3a5a; /* Card background */
     padding: 20px;
     border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Soft shadow */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.3); /* Darker shadow for dark theme */
     text-align: center;
     transition: transform 0.3s ease;
 }
@@ -138,19 +136,19 @@ header a:hover {
 .product-card h3 {
     font-size: 1.5em;
     margin: 10px 0;
-    color: #112d4e; /* Dark blue-gray text */
+    color: #f0f0f0;
 }
 
 .product-card .price {
     font-size: 1.2em;
-    color: #3f72af; /* Primary Accent Blue */
+    color: #53cfd7; /* Vibrant Accent 2 */
     margin-bottom: 15px;
 }
 
 /* Footer Styles */
 footer {
-    background: #3f72af; /* Primary Accent Blue */
-    color: #ffffff;
+    background: #1a1a2e; /* Primary Dark */
+    color: #fff;
     text-align: center;
     padding: 20px 0;
     margin-top: 30px;
