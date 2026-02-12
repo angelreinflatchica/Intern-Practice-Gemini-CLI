@@ -1,0 +1,155 @@
+/* General Body Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    line-height: 1.6;
+    background-color: #2a2a4a; /* Slightly lighter dark for body background */
+    color: #f0f0f0; /* Light grey for dark backgrounds */
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* Header Styles */
+header {
+    background: #1a1a2e; /* Primary Dark */
+    color: #fff;
+    padding-top: 20px;
+    min-height: 70px;
+    border-bottom: #e94560 3px solid; /* Vibrant Accent 1 */
+}
+
+header h1 {
+    float: left;
+    margin: 0;
+}
+
+header h1 a {
+    color: #fff;
+    text-decoration: none;
+}
+
+header nav {
+    float: right;
+    margin-top: 10px;
+}
+
+header ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+header li {
+    display: inline;
+    padding: 0 15px;
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header a:hover {
+    color: #53cfd7; /* Vibrant Accent 2 */
+    font-weight: bold;
+}
+
+/* Hero Section */
+.hero {
+    min-height: 400px;
+    background: #1a1a2e url('https://via.placeholder.com/1500x400/e94560/f0f0f0?text=Vibrant+E-commerce') no-repeat center center/cover; /* Vibrant Accent 1 in banner */
+    text-align: center;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.hero h2 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.btn {
+    display: inline-block;
+    color: #fff;
+    background: #e94560; /* Vibrant Accent 1 */
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+.btn:hover {
+    background: #53cfd7; /* Vibrant Accent 2 */
+}
+
+/* Products Section */
+.products {
+    padding: 40px 0;
+    text-align: center;
+}
+
+.products h2 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+    color: #e94560; /* Vibrant Accent 1 */
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.product-card {
+    background: #3a3a5a; /* Card background */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.3); /* Darker shadow for dark theme */
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+}
+
+.product-card img {
+    max-width: 100%;
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+
+.product-card h3 {
+    font-size: 1.5em;
+    margin: 10px 0;
+    color: #f0f0f0;
+}
+
+.product-card .price {
+    font-size: 1.2em;
+    color: #53cfd7; /* Vibrant Accent 2 */
+    margin-bottom: 15px;
+}
+
+/* Footer Styles */
+footer {
+    background: #1a1a2e; /* Primary Dark */
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 30px;
+}
