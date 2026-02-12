@@ -3,8 +3,8 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     line-height: 1.6;
-    background-color: #f8f8f8; /* Light background */
-    color: #333333; /* Dark text for readability */
+    background-color: #eef4f8; /* Very light blue-gray background */
+    color: #112d4e; /* Dark blue-gray for main text */
 }
 
 .container {
@@ -15,11 +15,11 @@ body {
 
 /* Header Styles */
 header {
-    background: #4CAF50; /* Accent Green */
+    background: #3f72af; /* Primary Accent Blue */
     color: #ffffff;
     padding-top: 20px;
     min-height: 70px;
-    border-bottom: #81C784 3px solid; /* Lighter Green accent */
+    border-bottom: #dbe2ef 3px solid; /* Secondary Accent Light Blue */
 }
 
 header h1 {
@@ -56,16 +56,16 @@ header a {
 }
 
 header a:hover {
-    color: #f0f0f0; /* Very light gray for hover on green */
+    color: #dbe2ef; /* Lighter blue for hover on header links */
     font-weight: bold;
 }
 
 /* Hero Section */
 .hero {
     min-height: 400px;
-    background: #e0f2e0 url('https://via.placeholder.com/1500x400/4CAF50/ffffff?text=E-commerce+Banner') no-repeat center center/cover; /* Light green background, green accent in banner */
+    background: #eef4f8 url('https://via.placeholder.com/1500x400/3f72af/ffffff?text=Modern+E-commerce') no-repeat center center/cover; /* Light background, blue accent in banner */
     text-align: center;
-    color: #333333; /* Dark text for hero section */
+    color: #112d4e; /* Dark blue-gray text for hero */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -75,19 +75,19 @@ header a:hover {
 .hero h2 {
     font-size: 3em;
     margin-bottom: 10px;
-    color: #333333; /* Dark text */
+    color: #112d4e; /* Dark blue-gray text */
 }
 
 .hero p {
     font-size: 1.2em;
     margin-bottom: 20px;
-    color: #333333; /* Dark text */
+    color: #112d4e; /* Dark blue-gray text */
 }
 
 .btn {
     display: inline-block;
     color: #ffffff;
-    background: #4CAF50; /* Accent Green */
+    background: #3f72af; /* Primary Accent Blue */
     padding: 10px 20px;
     text-decoration: none;
     border-radius: 5px;
@@ -95,7 +95,7 @@ header a:hover {
 }
 
 .btn:hover {
-    background: #81C784; /* Lighter Green for hover */
+    background: #5299d3; /* Button Hover Blue */
 }
 
 /* Products Section */
@@ -107,7 +107,7 @@ header a:hover {
 .products h2 {
     font-size: 2.5em;
     margin-bottom: 30px;
-    color: #4CAF50; /* Accent Green */
+    color: #3f72af; /* Primary Accent Blue */
 }
 
 .product-grid {
@@ -117,7 +117,7 @@ header a:hover {
 }
 
 .product-card {
-    background: #ffffff; /* White card background */
+    background: #ffffff; /* Clean white card background */
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Soft shadow */
@@ -138,18 +138,18 @@ header a:hover {
 .product-card h3 {
     font-size: 1.5em;
     margin: 10px 0;
-    color: #333333; /* Dark text */
+    color: #112d4e; /* Dark blue-gray text */
 }
 
 .product-card .price {
     font-size: 1.2em;
-    color: #4CAF50; /* Accent Green */
+    color: #3f72af; /* Primary Accent Blue */
     margin-bottom: 15px;
 }
 
 /* Footer Styles */
 footer {
-    background: #4CAF50; /* Accent Green */
+    background: #3f72af; /* Primary Accent Blue */
     color: #ffffff;
     text-align: center;
     padding: 20px 0;
